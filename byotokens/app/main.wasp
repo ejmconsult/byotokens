@@ -7,9 +7,9 @@ app OpenSaaS {
 
   head: [
         "<meta property='og:type' content='website' />",
-        "<meta property='og:title' content='My Open SaaS App' />",
-        "<meta property='og:url' content='https://opensaas.sh' />",
-        "<meta property='og:description' content='I made a SaaS App. Buy my stuff.' />",
+        "<meta property='og:title' content='BYOTokens.ai' />",
+        "<meta property='og:url' content='https://byotokens.ai' />",
+        "<meta property='og:description' content='A place to experiment with and explore open source AI solutions.' />",
         "<meta property='og:image' content='https://opensaas.sh/public-banner.png' />",
         "<meta name='twitter:image' content='https://opensaas.sh/public-banner.png' />",
         "<meta name='twitter:image:width' content='800' />",
@@ -83,9 +83,9 @@ app OpenSaaS {
     //   Once you are ready for production, switch to e.g. "SendGrid" or "Mailgun" providers. Check out https://docs.opensaas.sh/guides/email-sending/ .
     provider: Dummy,
     defaultFrom: {
-      name: "Open SaaS App",
+      name: "BYOTokens",
       // When using a real provider, e.g. SendGrid, you must use the same email address that you configured your account to send out emails with!
-      email: "me@example.com"
+      email: "ed@ejmconsult.com"
     },
   },
 }
